@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+:root {
+  --main: #88ff08;
+  --bg: #030302;
+  --bg-accent: #191919;
+  --font-color: #efefef;
+}
+
+* {
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: var(--font-color);
+}
+
+body {
+  background: var(--bg);
+}
+
+.wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  align-items: center;
+}
+
+header h3 small {
+  color: var(--main);
+  font-size: 0.85rem;
+}
+
+header h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header li {
+  margin-left: 1.6rem;
+}
+
+header li:first-child {
+  margin-left: 0rem;
+}
+
+header li a {
+  font-size: 0.85rem;
+  color: var(--main);
+  font-size: 25px;
+}
+
+header li:last-child a {
+  border: 3px solid var(--main);
+  color: #fff;
+  padding: -1rem 1rem;
+  text-transform: uppercase;
+}
+
+header li:last-child a {
+  margin-right: 0.4rem;
+}
+
+.hero {
+  min-height: 90vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  color: var(--main);
+  font-weight: 800;
+  font-size: 4.3rem;
+  line-height: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero a {
+  display: inline-block;
+  border: 0rem;
+  right: 0;
+}
+img {
+  position: absolute;
+  bottom: 0rem;
+  right: 0;
+}
